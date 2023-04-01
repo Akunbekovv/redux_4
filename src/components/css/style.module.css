@@ -1,0 +1,39 @@
+.block {
+    width: 800px;
+    height: 300px;
+    margin: 200px auto;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.input{
+    margin-top: 30px;
+    width: 50%;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns button {
+    margin-left: 10px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
